@@ -1,0 +1,77 @@
+.about-start{
+    width: 100%;
+    height: 595px;
+    /* border: 3px solid red; */
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 28px;
+    
+}
+.about-start .about-first img{
+    height: 450px;
+    margin-left: 15px;
+}
+.about-start .about-second h1{
+    position: relative;
+    bottom: 35px;
+}
+.about-start .about-second p{
+    position: relative;
+    bottom: 37px;
+}
+.about-start .about-second .ul-list {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+
+.about-start .about-second .ul-list li{
+    list-style-type: number;
+    position: relative;
+    right: 25px;
+    
+    
+}
+
+
+.why-choose{
+    width: 100%;
+    height: 350px;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+
+}
+.why-choose .card-all{
+    width: 32%;
+    height: 300px;
+    border: 2px solid black;
+    background-color: rgba(142, 165, 119, 0.473);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.why-choose .card-all:hover{
+    background-color: rgba(82, 82, 155, 0.4);
+}
+.why-choose .card-all h3{
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+    font-size: 20px;
+}
+.why-choose .card-all p{
+    text-align: center;
+    font-weight: 550;
+  font-style: normal;
+    font-size: 17px;
+}

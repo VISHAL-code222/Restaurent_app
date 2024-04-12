@@ -1,0 +1,48 @@
+.book-start{
+    width: 100%;
+    height: 620px;
+    /* border: 2px solid red; */
+    margin-top: 75px;
+    background-color: rgba(30, 143, 255, 0.526);
+   
+    
+}
+.book-start  form{
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+    gap:20px;
+    margin-left: 15px;
+}
+.book-start  form .first-box{
+    display: flex;
+    gap:25px;
+    align-items: center;
+}
+.book-start  form .first-box input{
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.book-start  form button{
+    
+    width: 250px;
+    height: 35px;
+    position: relative;
+    left: 622px;
+    border-radius: 5px;
+    top:19px;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+.book-start  form button:hover{
+    background-color: rgba(181, 112, 96, 0.544);
+}
+
+
+
+

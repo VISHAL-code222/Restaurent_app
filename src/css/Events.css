@@ -1,0 +1,71 @@
+.events-start{
+    width: 100%;
+  
+    /* border: 2px solid red; */
+    margin-top: 85px;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    gap: 15px;
+
+}
+.events-start     .enents-inside{
+    width: 75%;
+    height: 350px;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+
+}
+.events-start     .enents-inside .first{
+    width: 50%;
+    height: 350px
+}
+.events-start     .enents-inside .first img{
+    width: 400px;
+    height: 350px;
+}
+.events-start     .enents-inside .second {
+    display: flex;
+   
+    flex-direction: column;
+   
+    background-color: rgba(170, 191, 198, 0.342);
+    height: 350px;
+    align-items: center;
+    
+}
+.events-start     .enents-inside .second:hover{
+    background-color: rgba(205, 198, 205, 0.293);
+}
+.events-start     .enents-inside .second h2{
+    font-size: 35px;
+    text-align: center;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+ 
+    font-style: normal;
+    
+}
+.events-start     .enents-inside .second p{
+    
+    font-weight: bold;
+    font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 20px;
+    text-align: center;
+   
+}
+.events-start     .enents-inside .second .ul{
+    position: relative;
+   bottom: 19px;
+}
+.events-start     .enents-inside .second .ul li{
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    list-style-type: number;
+}
