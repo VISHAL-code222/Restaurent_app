@@ -1,0 +1,56 @@
+.btn-group{
+    width: 100%;
+    height: 100px;
+    /* border: 2px solid red; */
+    margin-top: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+.btn-group button{
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    background-color: rgba(210, 105, 30, 0.808);
+    color: white;
+    border-radius: 22px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+   
+}
+.btn-group button:hover{
+    background-color: rgba(123, 231, 69, 0.83);
+}
+.food-display{
+    width: 100%;
+  
+    display: flex;
+   flex-direction: column;
+   align-items: start;
+   gap:50px;
+   
+}
+.food-display .food-desc{
+    width: 100%;
+    height:100px;
+    /* border: 2px solid red; */
+    margin-top: 10px;
+    background-color: rgba(213, 212, 195, 0.414);
+    
+    
+}
+.food-display .food-desc h1{
+    font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+ 
+  font-style: normal;
+  margin-left: 10px;
+}
+.food-display .food-desc p{
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-left: 10px;
+}
